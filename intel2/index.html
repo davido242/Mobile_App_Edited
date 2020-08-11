@@ -5,17 +5,187 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>first-intel-page-2</title>
-		<link rel="stylesheet" type="text/css" href="style2.css">
+		<!-- <link rel="stylesheet" type="text/css" href="style2.css"> -->
 		<link rel="icon"  href="onyi.jpg">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+						* {
+				box-sizing: border-box;
+				padding: 0;
+				/*margin:0;*/
+			}
+
+			body {
+				margin: 0;
+				/*padding: 0;*/
+				background-color: #fff;
+				color: #000;
+			}
+
+			.full-container{
+				background-color: #fff;
+				height: 630px;
+				width: 100%;
+				border-bottom-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+			}
+
+			.the-next{
+				height: 30px;
+				width: 8%;
+				margin: 10px  0 0 20px;
+			}
+
+			#texxt{
+				font-family: sans-serif;
+				/*margin: 20px 0 0 20px;*/
+				line-height: 25px;
+				font-size: 15px;
+			}
+
+			#spec{
+				font-size: 1.8em;
+			}
+
+			.chev{
+				margin: 20px 0 0 20px;
+				color: #000;
+				border: solid #000;
+				height: 45px;
+				padding: 5px 0 0 2px;
+				text-align: center;
+				border-radius: 5px;
+			}
+
+			.first-row{
+				width: 100%;
+				display: inline-block;
+				height: 100px;
+			}
+
+			.to-left{
+				width: 40%;
+				float: left;
+				padding: 0px 0 0 20px;
+			}
+
+			.to-right{
+				width: 40%;
+				float: right;
+				height: 100px;
+				font-family: sans-serif;
+				line-height: 20px;
+				font-size: 15px;
+				padding: 25px 0px 0 0px;
+			}
+
+			.to-right img{
+				width: 70%;
+				height: 70px;
+			}
+
+			.next-class{
+				background-color: #fff;
+				width: 75%;
+				margin:0% 0% 0 5%;
+				border-radius: 10px;
+				padding: 0px 0 2px 10px;
+			}
+
+			.middle-row{
+				width: 90%;
+			    display: inline-block;
+			    height: 100px;
+			    font-family: arial;
+			    font-weight: bold;
+			    color: #fff;
+			    padding: 5px 0 0 0px;
+			}
+
+			#months{
+				width: 22%;
+				background-color: #e6c662;
+				height: 58px;
+				float: left;
+				color: #322f44;
+				text-align: center;
+				padding: 10px 0 0 0px;
+				border-radius: 10px;
+				margin: 2% 0 0 5%;
+
+			}
+
+			.trend{
+				background-color: #322f44;
+				height: 300px;
+				width: 95%;
+				margin:70px 0 0 2.5%;
+				display: inline-block;
+				border-radius: 15px;
+				padding: 2px 0 0 20px;
+				color: #fff;
+			}
+
+			.request{
+				float: right;
+				width: 68%;
+				height: 60px;
+				margin: 2% 1% 0 0%;
+			}
+			.request button{
+				width: 100%;
+				border-radius: 10px;
+				border: 2px solid #e2ca7f;
+				background-color: #322f44;
+				height: 60px;
+				color: #e2ca7f;
+				font-size: 24px;
+				font-family: sans-serif;
+				font-weight: 700;
+			}
+
+			/*Media Query*/
+
+			@media screen and (min-width: 320px){
+				.full-container{
+					height: 580px;
+					height: 700px;
+					border:2px solid navy;
+				}
+				
+			}
+
+			@media screen and (min-width: 450px){
+				.full-container{
+					width: 80%;
+					margin: 0% 0% 0 10%;
+					height: 700px;
+					border:2px solid navy;
+				}
+			}
+
+			@media screen and (min-width: 750px){
+				.full-container{
+					width: 60%;
+					margin: 5% 0% 0 20%;
+					height: 750px;
+				}
+			}
+			@media screen and (min-width: 1020px){
+				.full-container{
+					width: 30%;
+					margin: 3% 0% 0 35%;
+					height: 715px;
+				}
+			}
+		</style>
 
 	</head>
 	<body>
 <!-- Next Page icon -->
 		<div class="full-container">
 				<a href="../index.html">
-					<img class="the-next" src="directpng2.png">
-					<!-- <i class="fa chev fa-chevron-left fa-2x"></i> -->
+					<i class="fa chev fa-chevron-left fa-2x"></i>
 				</a>
 
 <!-- First Row with Prices to the left and Right -->
@@ -27,7 +197,8 @@
 				</div>
 				<div class="to-right">
 					<a href="the-next-pane2.html">
-						<img src="master-cardd.png">
+						<i class="fa fa-cc-mastercard fa-3x"> </i>
+						<!-- <img src="master-cardd.png" alt="Master-Card Img"> -->
 					</a>
 				</div>
 			</div>
